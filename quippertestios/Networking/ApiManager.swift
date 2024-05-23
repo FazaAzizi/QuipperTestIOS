@@ -46,26 +46,21 @@ class ApiManager {
                             emptyResponseCodes: [200, 401],
                             emptyRequestMethods: DataResponseSerializer.defaultEmptyRequestMethods) { response in
                                 if let error = response.error {
-                                    AppLogger.log(error, logType: .kNetworkResponseError)
                                     continuation.resume(throwing: error)
                                 } else {
                                     guard let urlResponse = response.response else {
-                                        AppLogger.log("invalid urlResponse", logType: .kNetworkResponseError)
                                         continuation.resume(throwing: ErrorHandler.unknownError)
                                         return
                                     }
                                     switch urlResponse.statusCode {
                                     case 401:
-                                        AppLogger.log("Unauthorized", logType: .kNetworkResponseError)
                                         continuation.resume(throwing: ErrorHandler.unauthorized)
                                     default:
                                         if let data = response.data {
                                             do {
                                                 let decoded = try JSONDecoder().decode(T.self, from: data)
-                                                AppLogger.log(decoded, logType: .kNetworkResponseSuccess)
                                                 continuation.resume(returning: decoded)
                                             } catch {
-                                                AppLogger.log(error, logType: .kNetworkResponseError)
                                                 continuation.resume(throwing: error)
                                             }
                                         } else {

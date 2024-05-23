@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/mbpm1/QuipperTestIOS/build/Release-iphoneos/netfox/netfox.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/mbpm1/QuipperTestIOS/build/Release-iphoneos/netfox/netfox.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "netfox-Swift.h",
+      'external-contents': "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/unextended-interface-header.h",
+    }]
+    }]
+}

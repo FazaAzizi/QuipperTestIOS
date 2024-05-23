@@ -28,11 +28,6 @@ extension Endpoint {
 extension Endpoint {
     func method() -> HTTPMethod {
         switch self {
-        case .generateOTP,
-                .validateOTP,
-                .globalSearch,
-                .sendToLeads:
-            return .post
         default:
             return .get
         }
@@ -53,12 +48,6 @@ extension Endpoint {
 extension Endpoint {
     var header: HTTPHeaders {
         switch self {
-        case .globalSearch:
-            let params: HTTPHeaders = [
-                "Content-Type": "application/json",
-                "Accept": "*/*"
-            ]
-            return params
         default:
             let params: HTTPHeaders = [
                 "Accept": "*/*"
@@ -72,7 +61,7 @@ extension Endpoint {
     func urlString() -> String {
         switch self {
         default:
-            return Constants.baseURL + path()
+            return "https://quipper.github.io/" + path()
         }
     }
 }

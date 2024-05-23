@@ -1,0 +1,20 @@
+Target dependency graph (10 targets)
+Target 'Pods-quippertestios' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage' in project 'Pods'
+➜ Explicit dependency on target 'SkeletonView' in project 'Pods'
+➜ Explicit dependency on target 'SwiftLint' in project 'Pods'
+➜ Explicit dependency on target 'netfox' in project 'Pods'
+➜ Explicit dependency on target 'youtube-ios-player-helper' in project 'Pods'
+Target 'youtube-ios-player-helper' in project 'Pods'
+➜ Explicit dependency on target 'youtube-ios-player-helper-Assets' in project 'Pods'
+Target 'youtube-ios-player-helper-Assets' in project 'Pods' (no dependencies)
+Target 'netfox' in project 'Pods' (no dependencies)
+Target 'SwiftLint' in project 'Pods' (no dependencies)
+Target 'SkeletonView' in project 'Pods' (no dependencies)
+Target 'SDWebImage' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage-SDWebImage' in project 'Pods'
+Target 'SDWebImage-SDWebImage' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire-Alamofire' in project 'Pods'
+Target 'Alamofire-Alamofire' in project 'Pods' (no dependencies)

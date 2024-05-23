@@ -1,0 +1,140 @@
+{
+  "" : {
+    "const-values" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master.swiftconstvalues",
+    "dependencies" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master.d",
+    "diagnostics" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master.dia",
+    "emit-module-dependencies" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/netfox-master.swiftdeps"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFX.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFX.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFX.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFX.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXAssets.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAssets.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAssets.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAssets.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXAuthenticationChallengeSender.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAuthenticationChallengeSender.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAuthenticationChallengeSender.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXAuthenticationChallengeSender.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXConstants.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXConstants.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXConstants.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXConstants.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXDetailsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXGenericBodyDetailsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericBodyDetailsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericBodyDetailsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericBodyDetailsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXGenericController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXGenericController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXHelper.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXHTTPModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModel.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModel.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModel.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXHTTPModelManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModelManager.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModelManager.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHTTPModelManager.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXImageBodyDetailsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXImageBodyDetailsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXImageBodyDetailsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXImageBodyDetailsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXInfoController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXListController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXProtocol.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXProtocol.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXProtocol.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXProtocol.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXSettingsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXStatisticsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/Core/NFXWindowController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXWindowController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXWindowController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXWindowController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXDetailsController_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXDetailsController_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXHelper_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXHelper_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXInfoController_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXInfoController_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXListCell_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListCell_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListCell_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListCell_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXListController_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXListController_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXRawBodyDetailsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXRawBodyDetailsController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXRawBodyDetailsController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXRawBodyDetailsController.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXSettingsController_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXSettingsController_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXStatisticsController_iOS.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController_iOS.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController_iOS.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXStatisticsController_iOS.o"
+  },
+  "/Users/mbpm1/QuipperTestIOS/Pods/netfox/netfox/iOS/NFXURLDetailsControllerViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXURLDetailsControllerViewController.o",
+    "llvm-bc" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXURLDetailsControllerViewController.bc",
+    "object" : "/Users/mbpm1/QuipperTestIOS/build/Pods.build/Release-iphoneos/netfox.build/Objects-normal/arm64/NFXURLDetailsControllerViewController.o"
+  }
+}
