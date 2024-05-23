@@ -6,7 +6,6 @@ PODS:
   - SDWebImage/Core (5.19.2)
   - SkeletonView (1.30.4)
   - SwiftLint (0.43.1)
-  - youtube-ios-player-helper (1.0.4)
 
 DEPENDENCIES:
   - Alamofire
@@ -14,7 +13,6 @@ DEPENDENCIES:
   - SDWebImage
   - SkeletonView
   - SwiftLint (= 0.43.1)
-  - youtube-ios-player-helper (~> 1.0.4)
 
 SPEC REPOS:
   trunk:
@@ -23,7 +21,6 @@ SPEC REPOS:
     - SDWebImage
     - SkeletonView
     - SwiftLint
-    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
@@ -31,8 +28,7 @@ SPEC CHECKSUMS:
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
-  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: 7fd005c0facfce3fbaddcb28d9c1df15a5607a4c
+PODFILE CHECKSUM: c63e17bd247e0c3c00071371272aba67264ca978
 
 COCOAPODS: 1.15.0

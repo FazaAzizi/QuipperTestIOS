@@ -11,5 +11,4 @@ target 'quippertestios' do
   pod 'SDWebImage'
   pod 'SwiftLint', '0.43.1'
   pod 'SkeletonView'
-  pod "youtube-ios-player-helper", "~> 1.0.4"
 end
