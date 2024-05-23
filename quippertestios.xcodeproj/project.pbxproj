@@ -19,6 +19,8 @@
 		A7B00AC82BFF2997004FE805 /* quippertestiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AC72BFF2997004FE805 /* quippertestiosTests.swift */; };
 		A7B00AD22BFF2997004FE805 /* quippertestiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AD12BFF2997004FE805 /* quippertestiosUITests.swift */; };
 		A7B00AD42BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */; };
+		A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */; };
+		A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		A7B00ACD2BFF2997004FE805 /* quippertestiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quippertestiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B00AD12BFF2997004FE805 /* quippertestiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quippertestiosUITests.swift; sourceTree = "<group>"; };
 		A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quippertestiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		CD52155F52CE223CF3564770 /* Pods_quippertestios_quippertestiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quippertestios_quippertestiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1EE2342C621FFD78C225B7 /* Pods_quippertestiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quippertestiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quippertestios.debug.xcconfig"; path = "Target Support Files/Pods-quippertestios/Pods-quippertestios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +115,6 @@
 				2894CF960503FDAD3B63D873 /* Pods-quippertestiosTests.debug.xcconfig */,
 				1BB447F416D39EBB5D4600E0 /* Pods-quippertestiosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -188,6 +191,8 @@
 		A7DCDEB42BFF2DFB00AF7E96 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */,
+				A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -455,9 +460,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */,
 				A7B00AB52BFF2995004FE805 /* ViewController.swift in Sources */,
 				A7B00AB12BFF2995004FE805 /* AppDelegate.swift in Sources */,
 				A7B00AB32BFF2995004FE805 /* SceneDelegate.swift in Sources */,
+				A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +701,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2894CF960503FDAD3B63D873 /* Pods-quippertestiosTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -715,7 +721,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BB447F416D39EBB5D4600E0 /* Pods-quippertestiosTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -736,7 +741,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A51E04AB9E3552FBFBDD5903 /* Pods-quippertestios-quippertestiosUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
@@ -755,7 +759,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5322DA7169085DDA043EDD56 /* Pods-quippertestios-quippertestiosUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
