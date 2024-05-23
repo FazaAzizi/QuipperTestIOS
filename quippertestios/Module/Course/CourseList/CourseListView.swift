@@ -85,6 +85,11 @@ extension CourseListView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let navigation = self.navigationController,
+              let presenter
+        else {return}
         
+        let data = courseList[indexPath.row]
+        presenter.goToDetail(courseData: data, nav: navigation)
     }
 }

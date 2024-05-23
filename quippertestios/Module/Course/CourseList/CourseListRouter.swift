@@ -17,20 +17,8 @@ class CourseListRouter {
         return view
     }
     
-    //Navigate to other xib-based router
-    /*
-    func navigateToOtherView(from navigation: UINavigationController, with data: Any) {
-        let otherView = OtherViewRouter().showView(with: data)
-        navigation.pushViewController(otherView, animated: true)
+    func goToDetail(courseData: CourseEntity, nav: UINavigationController) {
+        let vc = CourseDetailRouter().showView(courseData: courseData)
+        nav.pushViewController(vc, animated: true)
     }
-    */
-    
-    //Navigate to other storyboard-based router
-    /*
-    func navigateToOtherView(from navigation: UINavigationController, with data: Any) {
-        let otherView = OtherViewRouter().showView(with: data)
-        navigation.pushViewController(otherView, animated: true)
-    }
-     */
-    
 }

@@ -45,4 +45,8 @@ class CourseListPresenter {
             })
             .store(in: &anyCancellable)
     }
+    
+    func goToDetail(courseData: CourseEntity, nav: UINavigationController) {
+        self.router.goToDetail(courseData: courseData, nav: nav)
+    }
 }
