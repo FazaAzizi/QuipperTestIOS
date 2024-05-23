@@ -94,7 +94,7 @@ extension CourseListView: UITableViewDelegate, UITableViewDataSource {
               let presenter
         else {return}
         
-        let data = courseList[indexPath.row]
+        let data = filteredCourseList[indexPath.row]
         presenter.goToDetail(courseData: data, nav: navigation)
     }
 }
