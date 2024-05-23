@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CourseListView" customModule="quippertestios" customModuleProvider="target">
             <connections>
                 <outlet property="courseTableView" destination="mtP-KT-HM0" id="HIi-kK-hN4"/>
+                <outlet property="notFoundLbl" destination="D9k-Ts-6SE" id="nMW-Vm-joI"/>
                 <outlet property="searchTextField" destination="M7q-se-8y0" id="f3y-fW-tl6"/>
                 <outlet property="searchView" destination="Q9k-7w-JhA" id="Q3f-4z-AiQ"/>
                 <outlet property="titleLbl" destination="kvn-hD-AoJ" id="fim-51-vOa"/>
@@ -40,10 +41,6 @@
                         <constraint firstAttribute="height" constant="50" id="yDO-yY-CRZ"/>
                     </constraints>
                 </view>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mtP-KT-HM0">
-                    <rect key="frame" x="0.0" y="169" width="393" height="649"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3G-Mj-v76">
                     <rect key="frame" x="0.0" y="109" width="393" height="60"/>
                     <subviews>
@@ -61,7 +58,7 @@
                                                 <constraint firstAttribute="height" constant="24" id="8DU-Ad-SFk"/>
                                             </constraints>
                                         </imageView>
-                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M7q-se-8y0">
+                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search title or presenter name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M7q-se-8y0">
                                             <rect key="frame" x="34" y="0.0" width="299" height="40"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="40" id="xrc-dP-jNR"/>
@@ -90,6 +87,16 @@
                         <constraint firstAttribute="trailing" secondItem="Q9k-7w-JhA" secondAttribute="trailing" constant="20" id="xQJ-Wq-Xsd"/>
                     </constraints>
                 </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mtP-KT-HM0">
+                    <rect key="frame" x="0.0" y="169" width="393" height="649"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data Not Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9k-Ts-6SE">
+                    <rect key="frame" x="131.33333333333337" y="229" width="130.66666666666663" height="21.666666666666657"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -100,7 +107,9 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UID-A1-aUt" secondAttribute="trailing" id="GVS-L3-vy9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mtP-KT-HM0" secondAttribute="bottom" id="JXO-3o-KZ9"/>
                 <constraint firstItem="J3G-Mj-v76" firstAttribute="top" secondItem="UID-A1-aUt" secondAttribute="bottom" id="KNU-on-Hl0"/>
+                <constraint firstItem="D9k-Ts-6SE" firstAttribute="top" secondItem="J3G-Mj-v76" secondAttribute="bottom" constant="60" id="Rov-VL-7Bl"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="J3G-Mj-v76" secondAttribute="trailing" id="YQq-vt-QEg"/>
+                <constraint firstItem="D9k-Ts-6SE" firstAttribute="centerX" secondItem="J3G-Mj-v76" secondAttribute="centerX" id="gkD-X9-MOz"/>
                 <constraint firstItem="J3G-Mj-v76" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nfV-Lt-V6Z"/>
                 <constraint firstItem="mtP-KT-HM0" firstAttribute="top" secondItem="J3G-Mj-v76" secondAttribute="bottom" id="pa6-9x-WrD"/>
                 <constraint firstItem="mtP-KT-HM0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sTl-7T-R5m"/>

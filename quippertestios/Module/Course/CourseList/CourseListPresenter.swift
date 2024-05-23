@@ -38,8 +38,6 @@ class CourseListPresenter {
                 }
             }, receiveValue: { courseData in
                 DispatchQueue.main.async {
-                    print("success")
-                    print(courseData)
                     self.courseList = courseData
                 }
             })

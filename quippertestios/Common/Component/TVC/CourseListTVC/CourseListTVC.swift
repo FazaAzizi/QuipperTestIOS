@@ -22,7 +22,7 @@ class CourseListTVC: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         roundedContentView.layer.cornerRadius = 8
-        roundedContentView.layer.borderColor = UIColor.systemGray2.cgColor
+        roundedContentView.layer.borderColor = UIColor.systemGray4.cgColor
         roundedContentView.layer.borderWidth = 1
     }
 
