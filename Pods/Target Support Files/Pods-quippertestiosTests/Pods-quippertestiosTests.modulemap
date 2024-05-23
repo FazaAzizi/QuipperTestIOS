@@ -1,0 +1,6 @@
+framework module Pods_quippertestiosTests {
+  umbrella header "Pods-quippertestiosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.9.0)
+  - netfox (1.21.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - SkeletonView (1.30.4)
+  - SwiftLint (0.43.1)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - netfox
+  - SDWebImage
+  - SkeletonView
+  - SwiftLint (= 0.43.1)
+  - youtube-ios-player-helper (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - netfox
+    - SDWebImage
+    - SkeletonView
+    - SwiftLint
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 5d512f5aa24c77acb8721b83cd2575efc728d412
+
+COCOAPODS: 1.15.0
