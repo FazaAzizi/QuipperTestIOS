@@ -99,13 +99,14 @@
 		A7B00AAF2BFF2995004FE805 /* quippertestios */ = {
 			isa = PBXGroup;
 			children = (
-				A7B00AB02BFF2995004FE805 /* AppDelegate.swift */,
-				A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */,
+				A7DCDEB62BFF2E2800AF7E96 /* Resource */,
+				A7DCDEB52BFF2E0800AF7E96 /* Common */,
+				A7DCDEB42BFF2DFB00AF7E96 /* Networking */,
+				A7DCDEB32BFF2DF200AF7E96 /* Module */,
+				A7DCDEB22BFF2DEC00AF7E96 /* App */,
 				A7B00AB42BFF2995004FE805 /* ViewController.swift */,
 				A7B00AB62BFF2995004FE805 /* Main.storyboard */,
-				A7B00AB92BFF2997004FE805 /* Assets.xcassets */,
 				A7B00ABB2BFF2997004FE805 /* LaunchScreen.storyboard */,
-				A7B00ABE2BFF2997004FE805 /* Info.plist */,
 			);
 			path = quippertestios;
 			sourceTree = "<group>";
@@ -125,6 +126,53 @@
 				A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */,
 			);
 			path = quippertestiosUITests;
+			sourceTree = "<group>";
+		};
+		A7DCDEB22BFF2DEC00AF7E96 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7B00AB02BFF2995004FE805 /* AppDelegate.swift */,
+				A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7DCDEB32BFF2DF200AF7E96 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A7DCDEB42BFF2DFB00AF7E96 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A7DCDEB52BFF2E0800AF7E96 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEB72BFF2EB300AF7E96 /* Component */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A7DCDEB62BFF2E2800AF7E96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A7B00AB92BFF2997004FE805 /* Assets.xcassets */,
+				A7B00ABE2BFF2997004FE805 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A7DCDEB72BFF2EB300AF7E96 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,7 +492,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = quippertestios/Info.plist;
+				INFOPLIST_FILE = quippertestios/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = quippertestios/Info.plist;
+				INFOPLIST_FILE = quippertestios/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
