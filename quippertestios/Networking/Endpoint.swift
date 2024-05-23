@@ -18,7 +18,7 @@ extension Endpoint {
     func path() -> String {
         switch self {
         case .list:
-            return "content/v2/news/hero" // test integration
+            return "/native-technical-exam/playlist.json"
         }
     }
     // swiftlint:enable cyclomatic_complexity

@@ -19,6 +19,15 @@
 		A7B00AD42BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */; };
 		A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */; };
 		A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */; };
+		A7DCDEC62BFF4BBD00AF7E96 /* CourseListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */; };
+		A7DCDEC72BFF4BBD00AF7E96 /* CourseListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */; };
+		A7DCDEC82BFF4BBD00AF7E96 /* CourseListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */; };
+		A7DCDEC92BFF4BBD00AF7E96 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */; };
+		A7DCDECA2BFF4BBD00AF7E96 /* CourseListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */; };
+		A7DCDECB2BFF4BBD00AF7E96 /* CourseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */; };
+		A7DCDED02BFF4CF800AF7E96 /* CourseListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */; };
+		A7DCDED12BFF4CF800AF7E96 /* CourseListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */; };
+		A7DCDED42BFF4F4800AF7E96 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,15 @@
 		A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quippertestiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListPresenter.swift; sourceTree = "<group>"; };
+		A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListRouter.swift; sourceTree = "<group>"; };
+		A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListInteractor.swift; sourceTree = "<group>"; };
+		A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
+		A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListView.xib; sourceTree = "<group>"; };
+		A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListEntity.swift; sourceTree = "<group>"; };
+		A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListTVC.swift; sourceTree = "<group>"; };
+		A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListTVC.xib; sourceTree = "<group>"; };
+		A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 		F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quippertestios.debug.xcconfig"; path = "Target Support Files/Pods-quippertestios/Pods-quippertestios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,14 +145,15 @@
 		A7B00AAF2BFF2995004FE805 /* quippertestios */ = {
 			isa = PBXGroup;
 			children = (
-				A7DCDEB62BFF2E2800AF7E96 /* Resource */,
-				A7DCDEB52BFF2E0800AF7E96 /* Common */,
-				A7DCDEB42BFF2DFB00AF7E96 /* Networking */,
-				A7DCDEB32BFF2DF200AF7E96 /* Module */,
 				A7DCDEB22BFF2DEC00AF7E96 /* App */,
-				A7B00AB42BFF2995004FE805 /* ViewController.swift */,
+				A7DCDED22BFF4F2D00AF7E96 /* Extension */,
+				A7DCDEB52BFF2E0800AF7E96 /* Common */,
+				A7DCDEB32BFF2DF200AF7E96 /* Module */,
+				A7DCDEB42BFF2DFB00AF7E96 /* Networking */,
+				A7DCDEB62BFF2E2800AF7E96 /* Resource */,
 				A7B00AB62BFF2995004FE805 /* Main.storyboard */,
 				A7B00ABB2BFF2997004FE805 /* LaunchScreen.storyboard */,
+				A7B00AB42BFF2995004FE805 /* ViewController.swift */,
 			);
 			path = quippertestios;
 			sourceTree = "<group>";
@@ -168,6 +187,8 @@
 		A7DCDEB32BFF2DF200AF7E96 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				A7DCDEBE2BFF4B8800AF7E96 /* Course */,
+				A7DCDEBC2BFF4AC400AF7E96 /* Splash */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -201,8 +222,62 @@
 		A7DCDEB72BFF2EB300AF7E96 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				A7DCDECC2BFF4CC100AF7E96 /* TVC */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		A7DCDEBC2BFF4AC400AF7E96 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A7DCDEBE2BFF4B8800AF7E96 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEBF2BFF4B8F00AF7E96 /* CourseList */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		A7DCDEBF2BFF4B8F00AF7E96 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */,
+				A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */,
+				A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */,
+				A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */,
+				A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */,
+				A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		A7DCDECC2BFF4CC100AF7E96 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDECD2BFF4CC900AF7E96 /* CourseListTVC */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		A7DCDECD2BFF4CC900AF7E96 /* CourseListTVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */,
+				A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */,
+			);
+			path = CourseListTVC;
+			sourceTree = "<group>";
+		};
+		A7DCDED22BFF4F2D00AF7E96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,8 +387,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B00ABD2BFF2997004FE805 /* LaunchScreen.storyboard in Resources */,
+				A7DCDED12BFF4CF800AF7E96 /* CourseListTVC.xib in Resources */,
 				A7B00ABA2BFF2997004FE805 /* Assets.xcassets in Resources */,
 				A7B00AB82BFF2995004FE805 /* Main.storyboard in Resources */,
+				A7DCDECA2BFF4BBD00AF7E96 /* CourseListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,11 +457,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DCDEC72BFF4BBD00AF7E96 /* CourseListRouter.swift in Sources */,
 				A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */,
 				A7B00AB52BFF2995004FE805 /* ViewController.swift in Sources */,
 				A7B00AB12BFF2995004FE805 /* AppDelegate.swift in Sources */,
+				A7DCDEC62BFF4BBD00AF7E96 /* CourseListPresenter.swift in Sources */,
+				A7DCDEC82BFF4BBD00AF7E96 /* CourseListInteractor.swift in Sources */,
+				A7DCDEC92BFF4BBD00AF7E96 /* CourseListView.swift in Sources */,
+				A7DCDECB2BFF4BBD00AF7E96 /* CourseListEntity.swift in Sources */,
 				A7B00AB32BFF2995004FE805 /* SceneDelegate.swift in Sources */,
+				A7DCDED42BFF4F4800AF7E96 /* UIImageView+Ext.swift in Sources */,
 				A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */,
+				A7DCDED02BFF4CF800AF7E96 /* CourseListTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

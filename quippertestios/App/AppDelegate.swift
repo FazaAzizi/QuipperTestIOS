@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import netfox
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        NFX.sharedInstance().start()
+        
+        let courseList = CourseListRouter().showView()
+        let view = UINavigationController(rootViewController: courseList)
+        self.window?.rootViewController = view
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
