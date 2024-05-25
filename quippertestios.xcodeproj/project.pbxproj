@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A9DDF470A0EFFB73BCEF93E /* Pods_quippertestios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1823BF5D6C2EF6951BBECEEF /* Pods_quippertestios.framework */; };
 		A7B00AB12BFF2995004FE805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AB02BFF2995004FE805 /* AppDelegate.swift */; };
 		A7B00AB32BFF2995004FE805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */; };
 		A7B00AB52BFF2995004FE805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AB42BFF2995004FE805 /* ViewController.swift */; };
@@ -16,6 +17,24 @@
 		A7B00AC82BFF2997004FE805 /* quippertestiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AC72BFF2997004FE805 /* quippertestiosTests.swift */; };
 		A7B00AD22BFF2997004FE805 /* quippertestiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AD12BFF2997004FE805 /* quippertestiosUITests.swift */; };
 		A7B00AD42BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */; };
+		A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */; };
+		A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */; };
+		A7DCDEC62BFF4BBD00AF7E96 /* CourseListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */; };
+		A7DCDEC72BFF4BBD00AF7E96 /* CourseListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */; };
+		A7DCDEC82BFF4BBD00AF7E96 /* CourseListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */; };
+		A7DCDEC92BFF4BBD00AF7E96 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */; };
+		A7DCDECA2BFF4BBD00AF7E96 /* CourseListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */; };
+		A7DCDECB2BFF4BBD00AF7E96 /* CourseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */; };
+		A7DCDED02BFF4CF800AF7E96 /* CourseListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */; };
+		A7DCDED12BFF4CF800AF7E96 /* CourseListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */; };
+		A7DCDED42BFF4F4800AF7E96 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */; };
+		A7DCDEDC2BFF61C400AF7E96 /* CourseDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED62BFF61C400AF7E96 /* CourseDetailPresenter.swift */; };
+		A7DCDEDD2BFF61C400AF7E96 /* CourseDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED72BFF61C400AF7E96 /* CourseDetailRouter.swift */; };
+		A7DCDEDE2BFF61C400AF7E96 /* CourseDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED82BFF61C400AF7E96 /* CourseDetailInteractor.swift */; };
+		A7DCDEDF2BFF61C400AF7E96 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED92BFF61C400AF7E96 /* CourseDetailView.swift */; };
+		A7DCDEE02BFF61C400AF7E96 /* CourseDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDEDA2BFF61C400AF7E96 /* CourseDetailView.xib */; };
+		A7DCDEE12BFF61C400AF7E96 /* CourseDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEDB2BFF61C400AF7E96 /* CourseDetailEntity.swift */; };
+		A7DCDEE32BFF6AFC00AF7E96 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1823BF5D6C2EF6951BBECEEF /* Pods_quippertestios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quippertestios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7123844C8C46283DD6A2519E /* Pods-quippertestios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quippertestios.release.xcconfig"; path = "Target Support Files/Pods-quippertestios/Pods-quippertestios.release.xcconfig"; sourceTree = "<group>"; };
 		A7B00AAD2BFF2995004FE805 /* quippertestios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quippertestios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B00AB02BFF2995004FE805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,25 @@
 		A7B00ACD2BFF2997004FE805 /* quippertestiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quippertestiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B00AD12BFF2997004FE805 /* quippertestiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quippertestiosUITests.swift; sourceTree = "<group>"; };
 		A7B00AD32BFF2997004FE805 /* quippertestiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quippertestiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListPresenter.swift; sourceTree = "<group>"; };
+		A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListRouter.swift; sourceTree = "<group>"; };
+		A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListInteractor.swift; sourceTree = "<group>"; };
+		A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
+		A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListView.xib; sourceTree = "<group>"; };
+		A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListEntity.swift; sourceTree = "<group>"; };
+		A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListTVC.swift; sourceTree = "<group>"; };
+		A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListTVC.xib; sourceTree = "<group>"; };
+		A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		A7DCDED62BFF61C400AF7E96 /* CourseDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailPresenter.swift; sourceTree = "<group>"; };
+		A7DCDED72BFF61C400AF7E96 /* CourseDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailRouter.swift; sourceTree = "<group>"; };
+		A7DCDED82BFF61C400AF7E96 /* CourseDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailInteractor.swift; sourceTree = "<group>"; };
+		A7DCDED92BFF61C400AF7E96 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		A7DCDEDA2BFF61C400AF7E96 /* CourseDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailView.xib; sourceTree = "<group>"; };
+		A7DCDEDB2BFF61C400AF7E96 /* CourseDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailEntity.swift; sourceTree = "<group>"; };
+		A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
+		F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quippertestios.debug.xcconfig"; path = "Target Support Files/Pods-quippertestios/Pods-quippertestios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9DDF470A0EFFB73BCEF93E /* Pods_quippertestios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A80427D3147E4B4211FF77B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1823BF5D6C2EF6951BBECEEF /* Pods_quippertestios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2602AB560F267DBFF0E714B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */,
+				7123844C8C46283DD6A2519E /* Pods-quippertestios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A7B00AA42BFF2995004FE805 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				A7B00AC62BFF2997004FE805 /* quippertestiosTests */,
 				A7B00AD02BFF2997004FE805 /* quippertestiosUITests */,
 				A7B00AAE2BFF2995004FE805 /* Products */,
+				A2602AB560F267DBFF0E714B /* Pods */,
+				2A80427D3147E4B4211FF77B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +159,15 @@
 		A7B00AAF2BFF2995004FE805 /* quippertestios */ = {
 			isa = PBXGroup;
 			children = (
-				A7B00AB02BFF2995004FE805 /* AppDelegate.swift */,
-				A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */,
-				A7B00AB42BFF2995004FE805 /* ViewController.swift */,
+				A7DCDEB22BFF2DEC00AF7E96 /* App */,
+				A7DCDED22BFF4F2D00AF7E96 /* Extension */,
+				A7DCDEB52BFF2E0800AF7E96 /* Common */,
+				A7DCDEB32BFF2DF200AF7E96 /* Module */,
+				A7DCDEB42BFF2DFB00AF7E96 /* Networking */,
+				A7DCDEB62BFF2E2800AF7E96 /* Resource */,
 				A7B00AB62BFF2995004FE805 /* Main.storyboard */,
-				A7B00AB92BFF2997004FE805 /* Assets.xcassets */,
 				A7B00ABB2BFF2997004FE805 /* LaunchScreen.storyboard */,
-				A7B00ABE2BFF2997004FE805 /* Info.plist */,
+				A7B00AB42BFF2995004FE805 /* ViewController.swift */,
 			);
 			path = quippertestios;
 			sourceTree = "<group>";
@@ -127,6 +189,126 @@
 			path = quippertestiosUITests;
 			sourceTree = "<group>";
 		};
+		A7DCDEB22BFF2DEC00AF7E96 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7B00AB02BFF2995004FE805 /* AppDelegate.swift */,
+				A7B00AB22BFF2995004FE805 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7DCDEB32BFF2DF200AF7E96 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEBE2BFF4B8800AF7E96 /* Course */,
+				A7DCDEBC2BFF4AC400AF7E96 /* Splash */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A7DCDEB42BFF2DFB00AF7E96 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEB82BFF3B7D00AF7E96 /* ApiManager.swift */,
+				A7DCDEBA2BFF3B8800AF7E96 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A7DCDEB52BFF2E0800AF7E96 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEB72BFF2EB300AF7E96 /* Component */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A7DCDEB62BFF2E2800AF7E96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A7B00AB92BFF2997004FE805 /* Assets.xcassets */,
+				A7B00ABE2BFF2997004FE805 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A7DCDEB72BFF2EB300AF7E96 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDECC2BFF4CC100AF7E96 /* TVC */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A7DCDEBC2BFF4AC400AF7E96 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A7DCDEBE2BFF4B8800AF7E96 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDED52BFF61AA00AF7E96 /* CourseDetail */,
+				A7DCDEBF2BFF4B8F00AF7E96 /* CourseList */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		A7DCDEBF2BFF4B8F00AF7E96 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDEC02BFF4BBD00AF7E96 /* CourseListPresenter.swift */,
+				A7DCDEC12BFF4BBD00AF7E96 /* CourseListRouter.swift */,
+				A7DCDEC22BFF4BBD00AF7E96 /* CourseListInteractor.swift */,
+				A7DCDEC32BFF4BBD00AF7E96 /* CourseListView.swift */,
+				A7DCDEC42BFF4BBD00AF7E96 /* CourseListView.xib */,
+				A7DCDEC52BFF4BBD00AF7E96 /* CourseListEntity.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		A7DCDECC2BFF4CC100AF7E96 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDECD2BFF4CC900AF7E96 /* CourseListTVC */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		A7DCDECD2BFF4CC900AF7E96 /* CourseListTVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDECE2BFF4CF800AF7E96 /* CourseListTVC.swift */,
+				A7DCDECF2BFF4CF800AF7E96 /* CourseListTVC.xib */,
+			);
+			path = CourseListTVC;
+			sourceTree = "<group>";
+		};
+		A7DCDED22BFF4F2D00AF7E96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */,
+				A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A7DCDED52BFF61AA00AF7E96 /* CourseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A7DCDED62BFF61C400AF7E96 /* CourseDetailPresenter.swift */,
+				A7DCDED72BFF61C400AF7E96 /* CourseDetailRouter.swift */,
+				A7DCDED82BFF61C400AF7E96 /* CourseDetailInteractor.swift */,
+				A7DCDED92BFF61C400AF7E96 /* CourseDetailView.swift */,
+				A7DCDEDA2BFF61C400AF7E96 /* CourseDetailView.xib */,
+				A7DCDEDB2BFF61C400AF7E96 /* CourseDetailEntity.swift */,
+			);
+			path = CourseDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B00AD72BFF2997004FE805 /* Build configuration list for PBXNativeTarget "quippertestios" */;
 			buildPhases = (
+				9E1B74CF6B1ADD50E002751F /* [CP] Check Pods Manifest.lock */,
 				A7B00AA92BFF2995004FE805 /* Sources */,
 				A7B00AAA2BFF2995004FE805 /* Frameworks */,
 				A7B00AAB2BFF2995004FE805 /* Resources */,
+				66BC2CD1BDB0DE35F0BA529E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B00ABD2BFF2997004FE805 /* LaunchScreen.storyboard in Resources */,
+				A7DCDED12BFF4CF800AF7E96 /* CourseListTVC.xib in Resources */,
+				A7DCDEE02BFF61C400AF7E96 /* CourseDetailView.xib in Resources */,
 				A7B00ABA2BFF2997004FE805 /* Assets.xcassets in Resources */,
 				A7B00AB82BFF2995004FE805 /* Main.storyboard in Resources */,
+				A7DCDECA2BFF4BBD00AF7E96 /* CourseListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +440,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66BC2CD1BDB0DE35F0BA529E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quippertestios/Pods-quippertestios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quippertestios/Pods-quippertestios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quippertestios/Pods-quippertestios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1B74CF6B1ADD50E002751F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quippertestios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7B00AA92BFF2995004FE805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DCDEDF2BFF61C400AF7E96 /* CourseDetailView.swift in Sources */,
+				A7DCDEC72BFF4BBD00AF7E96 /* CourseListRouter.swift in Sources */,
+				A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */,
+				A7DCDEE32BFF6AFC00AF7E96 /* Int+Ext.swift in Sources */,
 				A7B00AB52BFF2995004FE805 /* ViewController.swift in Sources */,
 				A7B00AB12BFF2995004FE805 /* AppDelegate.swift in Sources */,
+				A7DCDEDC2BFF61C400AF7E96 /* CourseDetailPresenter.swift in Sources */,
+				A7DCDEC62BFF4BBD00AF7E96 /* CourseListPresenter.swift in Sources */,
+				A7DCDEC82BFF4BBD00AF7E96 /* CourseListInteractor.swift in Sources */,
+				A7DCDEC92BFF4BBD00AF7E96 /* CourseListView.swift in Sources */,
+				A7DCDECB2BFF4BBD00AF7E96 /* CourseListEntity.swift in Sources */,
 				A7B00AB32BFF2995004FE805 /* SceneDelegate.swift in Sources */,
+				A7DCDEE12BFF61C400AF7E96 /* CourseDetailEntity.swift in Sources */,
+				A7DCDEDD2BFF61C400AF7E96 /* CourseDetailRouter.swift in Sources */,
+				A7DCDED42BFF4F4800AF7E96 /* UIImageView+Ext.swift in Sources */,
+				A7DCDEDE2BFF61C400AF7E96 /* CourseDetailInteractor.swift in Sources */,
+				A7DCDEBB2BFF3B8800AF7E96 /* Endpoint.swift in Sources */,
+				A7DCDED02BFF4CF800AF7E96 /* CourseListTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +563,7 @@
 		A7B00AD52BFF2997004FE805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -382,6 +627,7 @@
 		A7B00AD62BFF2997004FE805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -437,14 +683,17 @@
 		};
 		A7B00AD82BFF2997004FE805 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = quippertestios/Info.plist;
+				INFOPLIST_FILE = quippertestios/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,14 +714,17 @@
 		};
 		A7B00AD92BFF2997004FE805 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7123844C8C46283DD6A2519E /* Pods-quippertestios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = quippertestios/Info.plist;
+				INFOPLIST_FILE = quippertestios/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -494,7 +746,6 @@
 		A7B00ADB2BFF2997004FE805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,7 +765,6 @@
 		A7B00ADC2BFF2997004FE805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,7 +784,6 @@
 		A7B00ADE2BFF2997004FE805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
@@ -552,7 +801,6 @@
 		A7B00ADF2BFF2997004FE805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M843HJCGXQ;
