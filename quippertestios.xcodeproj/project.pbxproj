@@ -34,7 +34,7 @@
 		A7DCDEDF2BFF61C400AF7E96 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDED92BFF61C400AF7E96 /* CourseDetailView.swift */; };
 		A7DCDEE02BFF61C400AF7E96 /* CourseDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DCDEDA2BFF61C400AF7E96 /* CourseDetailView.xib */; };
 		A7DCDEE12BFF61C400AF7E96 /* CourseDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEDB2BFF61C400AF7E96 /* CourseDetailEntity.swift */; };
-		A7DCDEE32BFF6AFC00AF7E96 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEE22BFF6AFC00AF7E96 /* Int+Extension.swift */; };
+		A7DCDEE32BFF6AFC00AF7E96 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,7 @@
 		A7DCDED92BFF61C400AF7E96 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
 		A7DCDEDA2BFF61C400AF7E96 /* CourseDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailView.xib; sourceTree = "<group>"; };
 		A7DCDEDB2BFF61C400AF7E96 /* CourseDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailEntity.swift; sourceTree = "<group>"; };
-		A7DCDEE22BFF6AFC00AF7E96 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
 		F491D2849ADBE7FB8D8E4F93 /* Pods-quippertestios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quippertestios.debug.xcconfig"; path = "Target Support Files/Pods-quippertestios/Pods-quippertestios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -291,7 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				A7DCDED32BFF4F4800AF7E96 /* UIImageView+Ext.swift */,
-				A7DCDEE22BFF6AFC00AF7E96 /* Int+Extension.swift */,
+				A7DCDEE22BFF6AFC00AF7E96 /* Int+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -490,7 +490,7 @@
 				A7DCDEDF2BFF61C400AF7E96 /* CourseDetailView.swift in Sources */,
 				A7DCDEC72BFF4BBD00AF7E96 /* CourseListRouter.swift in Sources */,
 				A7DCDEB92BFF3B7D00AF7E96 /* ApiManager.swift in Sources */,
-				A7DCDEE32BFF6AFC00AF7E96 /* Int+Extension.swift in Sources */,
+				A7DCDEE32BFF6AFC00AF7E96 /* Int+Ext.swift in Sources */,
 				A7B00AB52BFF2995004FE805 /* ViewController.swift in Sources */,
 				A7B00AB12BFF2995004FE805 /* AppDelegate.swift in Sources */,
 				A7DCDEDC2BFF61C400AF7E96 /* CourseDetailPresenter.swift in Sources */,

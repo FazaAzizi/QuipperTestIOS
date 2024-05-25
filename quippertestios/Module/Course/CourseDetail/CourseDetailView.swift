@@ -45,7 +45,7 @@ extension CourseDetailView {
         titleLbl.text = courseData.title
         descLbl.text = courseData.description
         presenterLbl.text = courseData.presenterName
-        durationLbl.text = "Duration : \(courseData.videoDuration.convertSecondsToTimeString())"
+        durationLbl.text = "Duration = \(courseData.videoDuration.convertSecondsToTimeString())"
         
         guard let urlVideo = URL(string: courseData.videoURL) else {return}
         player = AVPlayer(url: urlVideo)
